@@ -8,7 +8,7 @@ The goal was to make it very easy to use, but almost all parts of the project ca
 ## Getting Started
 
 Add the provided JBibtexParser.jar to your project, and include it in your dependencies.
-Afterwards just instantiate the parser and call Parser.parse(). It will return an IBibliograpyManager which you can use to filter entries by types, fields or simply keywords
+Afterwards just instantiate the parser and call Parser.parse(). It will return a BibliograpyManager which you can use to filter entries by types, fields or simply keywords
 
 ## Example use
 
