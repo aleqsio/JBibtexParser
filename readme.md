@@ -26,13 +26,9 @@ Parse the file:
             return;
         }
 
-Load the entire bibliography into a Bibliography object:
-
-        Bibliography mainBibliography = bibliographyManager.getBibliography();
-
 Print out all entries:
 
-        System.out.print(mainBibliography.toString());
+        System.out.print(bibliographyManager.getBibliography().toString());
 Print out all entries containing which contain both of the words 'mathematics' and 'theories'. You can chain filters:
 
         System.out.print(bibliographyManager.findEntriesContainingWords("mathematics").findEntriesContainingWords("theories")
