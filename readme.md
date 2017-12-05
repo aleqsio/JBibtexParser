@@ -52,4 +52,4 @@ You can find them in the tests package  and run them as normal.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [license.md](license.md) file for details
