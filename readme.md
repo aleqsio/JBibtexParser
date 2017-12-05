@@ -13,12 +13,12 @@ Afterwards just instantiate the parser and call Parser.parse(). It will return a
 ## Example use
 
 A simple constructor for creating parser with default componenents and a file reader:
-        Parser parser = new Parser("samplefile.txt");
 
-        IBibliographyManager bibliographyManager;
+        Parser parser = new Parser("samplefile.txt");
 
 Parse the file:
 
+        IBibliographyManager bibliographyManager;
         try {
             bibliographyManager = parser.parse();
         } catch (ParseErrorException e) {
