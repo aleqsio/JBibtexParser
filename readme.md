@@ -33,7 +33,7 @@ Print out all entries containing which contain both of the words 'mathematics' a
 
         System.out.print(bibliographyManager.findEntriesContainingWords("mathematics").findEntriesContainingWords("theories")
         .getBibliography().toString());
-print out all entries where author matches a regex ```.\*shelah.*```:
+print out all entries where author matches a regex ```.*shelah.*```:
 
           System.out.println(bibliographyManager.findFieldsOfValue(parser.getEntryTypesManager().getField("author"),".*shelah.*").getBibliography().toString());
 
